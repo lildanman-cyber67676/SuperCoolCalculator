@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SuperCoolCalculator</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background-color: #0d1117; color: #ffffff; padding: 40px 20px; text-align: center; }
+    h1 { font-size: 36px; margin-bottom: 10px; }
+    p { color: #8b949e; margin-bottom: 30px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto; }
+    .card { background-color: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 28px 20px; text-decoration: none; color: #ffffff; font-size: 20px; font-weight: bold; transition: 0.2s; }
+    .card:hover { transform: translateY(-4px); border-color: #58a6ff; }
+  </style>
+</head>
+<body>
+  <h1>SuperCoolCalculator</h1>
+  <p>Select a tool to launch</p>
+  <div class="grid">
+    <a href="/rb-college/" class="card">Retro Bowl College</a>
+    <a href="/retro-bowl/" class="card">Retro Bowl</a>
+  </div>
+</body>
+</html>
